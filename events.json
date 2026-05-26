@@ -2,7 +2,7 @@
   "meta": {
     "updated": "2026-05-26",
     "source": "Totem — manually curated from official event pages",
-    "next_review": "2026-08-26"
+    "next_review": "2026-06-26"
   },
   "events": [
     {
@@ -52,13 +52,13 @@
       "cat": "PBSA",
       "name": "WinPBSA Annual Summit 2026",
       "org": "Global Student Living",
-      "date": "2026-09-01",
-      "end": null,
-      "loc": "Marrakesh",
+      "date": "2026-03-25",
+      "end": "2026-03-26",
+      "loc": "Nobu Hotel, Marrakesh, Morocco",
       "type": "Summit",
       "priority": false,
       "attending": false,
-      "desc": "Women in PBSA Summit — two days of collaboration, leadership and action for senior executives from across the residential living sector. Limited capacity.",
+      "desc": "Women in PBSA Summit — two days of collaboration, leadership and action for senior executives from across the residential living sector. Hosted at Nobu Hotel, Marrakesh. Limited capacity.",
       "url": "https://gslglobal.com/events/winpbsa-annual-summit-2026/"
     },
     {
@@ -68,12 +68,12 @@
       "org": "Global Student Living",
       "date": "2026-10-14",
       "end": null,
-      "loc": "London",
+      "loc": "No.11 Cavendish Square, London",
       "type": "Summit",
       "priority": false,
       "attending": false,
-      "desc": "By-invitation-only event for top PBSA investors, developers and operators. Exclusive market insights and high-value networking. Returns to London for 2026.",
-      "url": "https://gslglobal.com/live/"
+      "desc": "By-invitation-only event for top PBSA investors, developers and operators. Exclusive market insights and high-value networking. Takes place alongside GSL Live 2026 in London.",
+      "url": "https://gslglobal.com/live/summit/"
     },
     {
       "id": "p06",
@@ -82,7 +82,7 @@
       "org": "Global Student Living",
       "date": "2026-10-14",
       "end": null,
-      "loc": "London",
+      "loc": "No.11 Cavendish Square, London",
       "type": "Conference",
       "priority": false,
       "attending": false,
@@ -130,6 +130,20 @@
       "attending": false,
       "desc": "Discussions on PBSA innovation and sustainability — construction form, Passivhaus standards, and performance-led design. Evening event followed by industry networking.",
       "url": "https://walsh.co.uk/news/next-gen"
+    },
+    {
+      "id": "p10",
+      "cat": "PBSA",
+      "name": "GSL Investor Summit Europe 2026",
+      "org": "Global Student Living",
+      "date": "2026-06-03",
+      "end": "2026-06-04",
+      "loc": "Gran Hotel Miramar, Málaga, Spain",
+      "type": "Summit",
+      "priority": false,
+      "attending": false,
+      "desc": "Invitation-only summit for leading global residential living investors, funders, developers and operators across Europe. Chatham House roundtables on PBSA, BTR and co-living, with sessions on energy management, AI-driven operations, and European market dynamics.",
+      "url": "https://gslglobal.com/events/gsl-investor-summit-europe-2026/"
     },
     {
       "id": "pt01",
@@ -242,6 +256,20 @@
       "attending": false,
       "desc": "Invite-only day focused on decarbonising building stock, forming part of London Climate Action Week. 100+ hand-picked sustainability, energy and green buildings professionals. Keynotes, expert panels, hands-on workshops.",
       "url": "https://event.edie.net/green-buildings-forum-workshops-2026"
+    },
+    {
+      "id": "en07",
+      "cat": "Energy",
+      "name": "CIBSE UK Net Zero Carbon Buildings Standard Conference 2026",
+      "org": "CIBSE",
+      "date": "2026-07-07",
+      "end": null,
+      "loc": "The Royal Society, London SW1",
+      "type": "Conference",
+      "priority": false,
+      "attending": false,
+      "desc": "Practice-focused conference on implementing the UK Net Zero Carbon Buildings Standard, launched March 2026. Early adopter case studies, sector-specific delineation requirements, and how organisations can align portfolios and strategies with the UK's first cross-industry net-zero buildings definition.",
+      "url": "https://www.cibse.org/events/cibse-conferences/cibse-uk-net-zero-carbon-buildings-standard-conference-2026/"
     }
   ]
 }
