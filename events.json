@@ -2,7 +2,7 @@
   "meta": {
     "updated": "2026-05-26",
     "source": "Totem — manually curated from official event pages",
-    "next_review": "2026-08-01"
+    "next_review": "2026-08-26"
   },
   "events": [
     {
@@ -66,28 +66,28 @@
       "cat": "PBSA",
       "name": "GSL Investor Summit — London",
       "org": "Global Student Living",
-      "date": "2026-10-01",
+      "date": "2026-10-14",
       "end": null,
       "loc": "London",
       "type": "Summit",
       "priority": false,
       "attending": false,
       "desc": "By-invitation-only event for top PBSA investors, developers and operators. Exclusive market insights and high-value networking. Returns to London for 2026.",
-      "url": "https://gslglobal.com/events/"
+      "url": "https://gslglobal.com/live/"
     },
     {
       "id": "p06",
       "cat": "PBSA",
       "name": "GSL Live 2026",
       "org": "Global Student Living",
-      "date": "2026-10-16",
+      "date": "2026-10-14",
       "end": null,
       "loc": "London",
       "type": "Conference",
       "priority": false,
       "attending": false,
-      "desc": "Annual sector gathering for everyone in PBSA — universities, operators, service providers. Insight stream covering trends, research and resident data, plus a collaboration stream.",
-      "url": "https://gslglobal.com/events/"
+      "desc": "Annual sector gathering for everyone in PBSA — universities, operators, service providers. Insight stream covering trends, research and resident data, plus a collaboration stream. GSL Awards ceremony follows.",
+      "url": "https://gslglobal.com/live/"
     },
     {
       "id": "p07",
@@ -134,7 +134,7 @@
     {
       "id": "pt01",
       "cat": "PropTech",
-      "name": "PropTech Connect 2026",
+      "name": "PropTech Connect Europe 2026",
       "org": "PropTech Connect",
       "date": "2026-09-09",
       "end": "2026-09-10",
@@ -142,7 +142,7 @@
       "type": "Conference",
       "priority": true,
       "attending": false,
-      "desc": "Europe's largest PropTech event. 3,000–5,000 attendees across 85 countries. Features a dedicated Smart Building Showcase. Strong ESG, sustainability, and energy management track.",
+      "desc": "Europe's largest PropTech event. 6,000+ attendees, 400 speakers, 2,500 companies across 85 countries. Features a dedicated Smart Building Showcase. Strong ESG, sustainability, and energy management track.",
       "url": "https://proptechconnect.com/"
     },
     {
@@ -220,14 +220,30 @@
       "cat": "Energy",
       "name": "edie 26 — Sustainable Business",
       "org": "edie",
-      "date": "2026-03-04",
-      "end": "2026-03-05",
+      "date": "2026-03-25",
+      "end": "2026-03-26",
       "loc": "Business Design Centre, London",
       "type": "Conference",
       "priority": false,
       "attending": false,
       "desc": "UK's longest-running sustainable business event. Energy & buildings track, climate resilience, circularity, innovation. 1,000+ sustainability leaders across sectors.",
       "url": "https://www.edie.net/"
+    },
+    {
+      "id": "en06",
+      "cat": "Energy",
+      "name": "edie Green Buildings Forum & Workshops 2026",
+      "org": "edie",
+      "date": "2026-06-23",
+      "end": null,
+      "loc": "The IET, London",
+      "type": "Forum",
+      "priority": false,
+      "attending": false,
+      "desc": "Invite-only day focused on decarbonising building stock, forming part of London Climate Action Week. 100+ hand-picked sustainability, energy and green buildings professionals. Keynotes, expert panels, hands-on workshops.",
+      "url": "https://event.edie.net/green-buildings-forum-workshops-2026"
     }
   ]
+}
+
 }
