@@ -1,0 +1,48 @@
+name: Update Bargate savings data
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # runs daily at 6am UTC
+  workflow_dispatch:        # allows manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch from API and write bargate.json
+        env:
+          REPLIT_URL: ${{ secrets.REPLIT_SAVINGS_URL }}
+        run: |
+          curl -sf "$REPLIT_URL" > /tmp/replit-data.json || {
+            echo "API fetch failed"
+            exit 1
+          }
+
+          node -e "
+            const data = JSON.parse(require('fs').readFileSync('/tmp/replit-data.json', 'utf8'));
+            const out = {
+              site: 'Bargate House',
+              location: 'Southampton',
+              rooms: 122,
+              reduction_percent: data.overall_savings_percent,
+              total_energy_saved_kwh: Math.round(data.total_energy_saved_kwh),
+              total_carbon_saved_kg: Math.round(data.total_carbon_saved_kg),
+              car_miles_equivalent: Math.round(data.car_miles_equivalent),
+              trees_equivalent: Math.round(data.trees_equivalent),
+              last_updated: new Date().toISOString().split('T')[0]
+            };
+            require('fs').writeFileSync('bargate.json', JSON.stringify(out, null, 2));
+            console.log('Written:', JSON.stringify(out));
+          "
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add bargate.json
+          git diff --staged --quiet || git commit -m "Update Bargate savings $(date +%Y-%m-%d)"
+          git push
