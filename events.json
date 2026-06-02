@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-05-26",
+    "updated": "2026-06-02",
     "source": "Totem — manually curated from official event pages",
-    "next_review": "2026-06-26"
+    "next_review": "2026-07-02"
   },
   "events": [
     {
@@ -270,6 +270,20 @@
       "attending": false,
       "desc": "Practice-focused conference on implementing the UK Net Zero Carbon Buildings Standard, launched March 2026. Early adopter case studies, sector-specific delineation requirements, and how organisations can align portfolios and strategies with the UK's first cross-industry net-zero buildings definition.",
       "url": "https://www.cibse.org/events/cibse-conferences/cibse-uk-net-zero-carbon-buildings-standard-conference-2026/"
+    },
+    {
+      "id": "en08",
+      "cat": "Energy",
+      "name": "CIBSE Technology and Innovation Conference 2026",
+      "org": "CIBSE",
+      "date": "2026-06-17",
+      "end": null,
+      "loc": "CIBSE HQ, Saffron Hill, London EC1N",
+      "type": "Conference",
+      "priority": false,
+      "attending": false,
+      "desc": "One-day conference for building services engineers on AI, digital engineering, and intelligent building systems. Sessions cover AI-driven building operations and predictive maintenance, decarbonisation through technology, and the future skills agenda — directly relevant to Totem's positioning in smart PBSA energy management.",
+      "url": "https://www.cibse.org/events/cibse-conferences/cibse-technology-and-innovation-conference-2026/"
     }
   ]
 }
