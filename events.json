@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-06-02",
+    "updated": "2026-07-01",
     "source": "Totem — manually curated from official event pages",
-    "next_review": "2026-07-02"
+    "next_review": "2026-08-01"
   },
   "events": [
     {
@@ -146,6 +146,20 @@
       "url": "https://gslglobal.com/events/gsl-investor-summit-europe-2026/"
     },
     {
+      "id": "p11",
+      "cat": "PBSA",
+      "name": "The Class Conference 2026",
+      "org": "The Class Foundation",
+      "date": "2026-11-04",
+      "end": "2026-11-05",
+      "loc": "Amsterdam, Netherlands",
+      "type": "Conference",
+      "priority": true,
+      "attending": false,
+      "desc": "Europe's largest student housing conference, convening a community of 90+ industry players from real estate, higher education, urban planning and policy. Two days of keynotes, breakouts, site tours and the Best in Class Awards dinner, exploring investment, social impact, public-private agendas and tomorrow's student experience — a key stage for Totem's smart PBSA energy-management story.",
+      "url": "https://www.theclassfoundation.com/conference"
+    },
+    {
       "id": "pt01",
       "cat": "PropTech",
       "name": "PropTech Connect Europe 2026",
@@ -284,6 +298,20 @@
       "attending": false,
       "desc": "One-day conference for building services engineers on AI, digital engineering, and intelligent building systems. Sessions cover AI-driven building operations and predictive maintenance, decarbonisation through technology, and the future skills agenda — directly relevant to Totem's positioning in smart PBSA energy management.",
       "url": "https://www.cibse.org/events/cibse-conferences/cibse-technology-and-innovation-conference-2026/"
+    },
+    {
+      "id": "en09",
+      "cat": "Energy",
+      "name": "CIBSE Build2Perform Live 2026",
+      "org": "CIBSE / Nineteen Group",
+      "date": "2026-11-25",
+      "end": "2026-11-26",
+      "loc": "ExCeL London",
+      "type": "Exhibition",
+      "priority": true,
+      "attending": false,
+      "desc": "The UK's leading building performance conference and exhibition, co-located with London Build. 900+ speakers across 17 stages and 650+ exhibitors covering energy management, controls, decarbonisation and intelligent building technology. A major free-to-attend stage for Totem's smart PBSA energy-management proposition.",
+      "url": "https://www.build2perform.co.uk/"
     }
   ]
 }
