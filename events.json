@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-07-01",
+    "updated": "2026-07-26",
     "source": "Totem — manually curated from official event pages",
-    "next_review": "2026-08-01"
+    "next_review": "2026-08-26"
   },
   "events": [
     {
@@ -312,6 +312,20 @@
       "attending": false,
       "desc": "The UK's leading building performance conference and exhibition, co-located with London Build. 900+ speakers across 17 stages and 650+ exhibitors covering energy management, controls, decarbonisation and intelligent building technology. A major free-to-attend stage for Totem's smart PBSA energy-management proposition.",
       "url": "https://www.build2perform.co.uk/"
+    },
+    {
+      "id": "p12",
+      "cat": "PBSA",
+      "name": "UK Living Series: Student Accommodation Summit 2026",
+      "org": "Bisnow",
+      "date": "2026-09-24",
+      "end": null,
+      "loc": "London",
+      "type": "Summit",
+      "priority": false,
+      "attending": false,
+      "desc": "Bisnow's annual UK student housing gathering, convening PBSA leadership from operators such as Dominus, UPP and Watkins Group alongside investors and developers. Sessions cover investment strategy, development, delivery and operational excellence — a relevant room for Totem's smart PBSA energy-management story.",
+      "url": "https://www.bisnow.com/events/london/student-housing/uk-living-series-student-housing-summit-9894"
     }
   ]
 }
