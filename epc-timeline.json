@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated": "2026-07-26",
+    "updated": "2026-08-01",
     "source": "Totem — curated from DESNZ, MHCLG, legislation.gov.uk and official consultations",
-    "next_review": "2026-08-26",
-    "version": "1.2",
+    "next_review": "2026-09-01",
+    "version": "1.3",
     "description": "UK EPC and MEES regulatory timeline data — totem.systems",
     "notes": "Proposed dates use 1 Jan / 1 Apr of target year as placeholder. Always verify against latest DESNZ / MHCLG publications."
   },
