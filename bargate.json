@@ -2,10 +2,10 @@
   "site": "Bargate House",
   "location": "Southampton",
   "rooms": 122,
-  "reduction_percent": 71.5,
-  "total_energy_saved_kwh": 130762,
-  "total_carbon_saved_kg": 25237,
-  "car_miles_equivalent": 96373,
-  "trees_equivalent": 1202,
-  "last_updated": "2026-08-16"
+  "reduction_percent": 72,
+  "total_energy_saved_kwh": 134520,
+  "total_carbon_saved_kg": 25962,
+  "car_miles_equivalent": 99142,
+  "trees_equivalent": 1236,
+  "last_updated": "2026-08-17"
 }
