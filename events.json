@@ -202,6 +202,20 @@
       "url": "https://proptechconnect.com/"
     },
     {
+      "id": "en13",
+      "cat": "Energy",
+      "name": "Energy Management Summit 2026 — London",
+      "org": "Forum Events Ltd",
+      "date": "2026-09-21",
+      "end": "2026-09-22",
+      "loc": "Radisson Hotel & Conference Centre, London Heathrow",
+      "type": "Summit",
+      "priority": false,
+      "attending": false,
+      "desc": "Forum Events' matched-meetings summit: energy and sustainability managers are paired with suppliers for pre-arranged one-to-one meetings, alongside seminars and networking. Free for buyers, paid stand for suppliers. Not a mass-attendance show — the value is the meeting schedule, and metering, monitoring and efficiency retrofit are squarely in scope for Totem.",
+      "url": "https://energymanagementsummit.co.uk/"
+    },
+    {
       "id": "p13",
       "cat": "PBSA",
       "name": "Living UK Conference 2026",
@@ -396,6 +410,20 @@
       "attending": false,
       "desc": "edie's flagship two-day sustainable business event, returning to the Business Design Centre. Audience is corporate sustainability and energy leads rather than property specifically, which makes it better for market intelligence and partner conversations than for direct PBSA lead generation.",
       "url": "https://event.edie.net/edie27"
+    },
+    {
+      "id": "en14",
+      "cat": "Energy",
+      "name": "Energy Management Summit 2027 — Manchester",
+      "org": "Forum Events Ltd",
+      "date": "2027-05-10",
+      "end": "2027-05-11",
+      "loc": "Radisson Blu Hotel, Manchester Airport",
+      "type": "Summit",
+      "priority": false,
+      "attending": false,
+      "desc": "Forum Events' matched-meetings summit: energy and sustainability managers are paired with suppliers for pre-arranged one-to-one meetings, alongside seminars and networking. Free for buyers, paid stand for suppliers. Not a mass-attendance show — the value is the meeting schedule, and metering, monitoring and efficiency retrofit are squarely in scope for Totem. Northern edition — useful given the PBSA development weighting in Manchester, Leeds and Liverpool.",
+      "url": "https://energymanagementsummit.co.uk/"
     },
     {
       "id": "en12",
