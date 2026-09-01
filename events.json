@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-08-27",
+    "updated": "2026-09-01",
     "source": "Totem — manually curated from official event pages",
-    "next_review": "2026-09-27"
+    "next_review": "2026-10-01"
   },
   "events": [
     {
@@ -34,20 +34,6 @@
       "url": "https://www.londonproptechshow.com/"
     },
     {
-      "id": "en05",
-      "cat": "Energy",
-      "name": "edie 26 — Sustainable Business",
-      "org": "edie",
-      "date": "2026-03-25",
-      "end": "2026-03-26",
-      "loc": "Business Design Centre, London",
-      "type": "Conference",
-      "priority": false,
-      "attending": false,
-      "desc": "UK's longest-running sustainable business event. Energy & buildings track, climate resilience, circularity, innovation. 1,000+ sustainability leaders across sectors.",
-      "url": "https://www.edie.net/"
-    },
-    {
       "id": "p04",
       "cat": "PBSA",
       "name": "WinPBSA Annual Summit 2026",
@@ -60,6 +46,20 @@
       "attending": false,
       "desc": "Women in PBSA Summit — two days of collaboration, leadership and action for senior executives from across the residential living sector. Hosted at Nobu Hotel, Marrakesh. Limited capacity.",
       "url": "https://gslglobal.com/events/winpbsa-annual-summit-2026/"
+    },
+    {
+      "id": "en05",
+      "cat": "Energy",
+      "name": "edie 26 — Sustainable Business",
+      "org": "edie",
+      "date": "2026-03-25",
+      "end": "2026-03-26",
+      "loc": "Business Design Centre, London",
+      "type": "Conference",
+      "priority": false,
+      "attending": false,
+      "desc": "UK's longest-running sustainable business event. Energy & buildings track, climate resilience, circularity, innovation. 1,000+ sustainability leaders across sectors.",
+      "url": "https://www.edie.net/"
     },
     {
       "id": "en04",
@@ -244,20 +244,6 @@
       "url": "https://www.bisnow.com/events/london/student-housing/uk-living-series-student-housing-summit-9894"
     },
     {
-      "id": "en02",
-      "cat": "Energy",
-      "name": "Smart Buildings Show 2026",
-      "org": "Turret Group",
-      "date": "2026-10-14",
-      "end": "2026-10-15",
-      "loc": "ExCeL London",
-      "type": "Exhibition",
-      "priority": true,
-      "attending": false,
-      "desc": "The UK's only dedicated commercial smart buildings conference and exhibition. 3,500 visitors, 100 exhibitors. Four theatres: Energy Management, Controls & Networks, IT & Digital Infrastructure, and Management & PropTech. Free to attend.",
-      "url": "https://smartbuildingsshow.com/"
-    },
-    {
       "id": "p05",
       "cat": "PBSA",
       "name": "GSL Investor Summit — London",
@@ -284,6 +270,20 @@
       "attending": false,
       "desc": "Annual sector gathering for everyone in PBSA — universities, operators, service providers. Insight stream covering trends, research and resident data, plus a collaboration stream. GSL Awards ceremony follows.",
       "url": "https://gslglobal.com/live/"
+    },
+    {
+      "id": "en02",
+      "cat": "Energy",
+      "name": "Smart Buildings Show 2026",
+      "org": "Turret Group",
+      "date": "2026-10-14",
+      "end": "2026-10-15",
+      "loc": "ExCeL London",
+      "type": "Exhibition",
+      "priority": true,
+      "attending": false,
+      "desc": "The UK's only dedicated commercial smart buildings conference and exhibition. 3,500 visitors, 100 exhibitors. Four theatres: Energy Management, Controls & Networks, IT & Digital Infrastructure, and Management & PropTech. Free to attend.",
+      "url": "https://smartbuildingsshow.com/"
     },
     {
       "id": "pt03",
@@ -340,6 +340,20 @@
       "attending": false,
       "desc": "Sustainability, social value and governance strategies across the property industry. Strong crossover with energy and EPC positioning — PBSA operators with ESG mandates are core attendees.",
       "url": "https://www.propertyweek.com/event-calendar"
+    },
+    {
+      "id": "en15",
+      "cat": "Energy",
+      "name": "Innovation Zero: Electrifying the Economy",
+      "org": "Innovation Zero (Mung Intl.)",
+      "date": "2026-11-23",
+      "end": null,
+      "loc": "1 Basinghall Avenue, London EC2V 5DD",
+      "type": "Conference",
+      "priority": false,
+      "attending": false,
+      "desc": "Innovation Zero's first one-day conference, aimed at organisations electrifying their operations and the decision-makers responsible for energy strategy and infrastructure investment. Single-track and senior rather than a trade show. Relevant to Totem as the all-electric PBSA stock it targets is exactly the electrification case being discussed.",
+      "url": "https://www.innovationzero.com/conferences/electrifying-economy"
     },
     {
       "id": "en09",
@@ -412,6 +426,34 @@
       "url": "https://event.edie.net/edie27"
     },
     {
+      "id": "p14",
+      "cat": "PBSA",
+      "name": "ASRA Conference 2027",
+      "org": "ASRA (Association for Student Residential Accommodation)",
+      "date": "2027-04-18",
+      "end": "2027-04-21",
+      "loc": "The Eastside Rooms, Birmingham",
+      "type": "Conference",
+      "priority": false,
+      "attending": false,
+      "desc": "The annual conference of the professional body for student accommodation staff across the UK and Ireland, running four days with keynotes, workshops, an exhibition and the ASRA Awards. The audience is university and operator accommodation teams rather than investors — the people who actually run the buildings and field the heating complaints. Speakers, agenda and booking are still to be announced.",
+      "url": "https://www.asra.ac.uk/asra-conference/birmingham-2027"
+    },
+    {
+      "id": "en16",
+      "cat": "Energy",
+      "name": "Innovation Zero World Congress 2027",
+      "org": "Innovation Zero (Mung Intl.)",
+      "date": "2027-04-27",
+      "end": "2027-04-28",
+      "loc": "Olympia London",
+      "type": "Conference",
+      "priority": false,
+      "attending": false,
+      "desc": "Fifth edition of the UK's largest low-carbon innovation congress, built around collaboration and deployment, future energy systems, building resilience and scaling innovation. Broad cross-sector audience of business, government, investors and innovators rather than a property crowd. Better for partner and investor conversations than direct PBSA lead generation.",
+      "url": "https://www.innovationzero.com/world-congress"
+    },
+    {
       "id": "en14",
       "cat": "Energy",
       "name": "Energy Management Summit 2027 — Manchester",
@@ -438,6 +480,20 @@
       "attending": false,
       "desc": "Three days on sustainable construction and the built environment, co-located with UK Construction Week. CPD programme spans net-zero pathways, retrofit at scale and digital performance tools. Relevant to Totem as a retrofit measure, though the audience skews to new build and materials.",
       "url": "https://www.futurebuild.co.uk/"
+    },
+    {
+      "id": "pt05",
+      "cat": "PropTech",
+      "name": "UKREiiF 2027",
+      "org": "Built Environment Networking",
+      "date": "2027-05-18",
+      "end": "2027-05-20",
+      "loc": "Royal Armouries & Leeds Dock, Leeds LS10 1PZ",
+      "type": "Conference",
+      "priority": false,
+      "attending": false,
+      "desc": "The UK's Real Estate Investment & Infrastructure Forum, back in Leeds for three days across the Royal Armouries and Leeds Dock. The organisers expect more than 17,000 delegates including over 4,000 investors and developers, with local authorities, universities and institutional capital all present. Broad rather than PBSA-specific, but the regional development pipeline conversations happen here.",
+      "url": "https://2027.ukreiif.com/"
     }
   ]
 }
