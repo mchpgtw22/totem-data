@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated": "2026-08-01",
+    "updated": "2026-09-01",
     "source": "Totem — curated from DESNZ, MHCLG, legislation.gov.uk and official consultations",
-    "next_review": "2026-09-01",
-    "version": "1.3",
+    "next_review": "2026-10-01",
+    "version": "1.4",
     "description": "UK EPC and MEES regulatory timeline data — totem.systems",
     "notes": "Proposed dates use 1 Jan / 1 Apr of target year as placeholder. Always verify against latest DESNZ / MHCLG publications."
   },
@@ -19,11 +19,29 @@
         "PBSA/HMO"
       ],
       "impact": "medium",
+      "rating_minimum": null,
       "summary": "Energy Performance Certificates became mandatory for all properties marketed for sale or rent across England, Wales and Scotland. The familiar A–G rating scale was introduced under the EU Energy Performance of Buildings Directive.",
       "detail": "The EU Energy Performance of Buildings Directive (EPBD 2002/91/EC) required all member states to introduce EPCs. In England and Wales this was implemented through the Energy Performance of Buildings (Certificates and Inspections) Regulations 2007, with phased introduction from August 2007 through to October 2008.\n\nEPCs must be commissioned before a property is marketed for rent or sale. Certificates are valid for 10 years. A new EPC is only required when the existing one expires or when material changes are made to the property.\n\nFor PBSA operators, a valid EPC must be available at the point of marketing each unit. New-build PBSA schemes require an EPC before occupation. Whether a building is assessed under the domestic or non-domestic EPC methodology depends on configuration — purpose-built blocks with communal facilities are typically rated non-domestically.",
       "totemAngle": "Totem's live energy monitoring gives PBSA operators real-time visibility of actual energy use — providing the evidence base to challenge or improve EPC ratings and demonstrate performance between assessments.",
       "source": "Energy Performance of Buildings (Certificates and Inspections) Regulations 2007",
       "sourceUrl": "https://www.legislation.gov.uk/uksi/2007/991/contents/made"
+    },
+    {
+      "id": "cost-cap-3500-superseded",
+      "date": "2015-04-01",
+      "status": "superseded",
+      "title": "£3,500 MEES Cost Cap — To Be Replaced by £10,000 Cap",
+      "sectors": [
+        "Residential",
+        "Policy"
+      ],
+      "impact": "medium",
+      "rating_minimum": null,
+      "summary": "The existing £3,500 net cost cap (above which landlords can register a cost cap exemption from MEES) was set in 2015. The Government's confirmed position (Warm Homes Plan, January 2026) replaces this with a £10,000 cap for the EPC C requirement, with a 10-year exemption validity period.",
+      "detail": "The £3,500 cost cap has been criticised as too low to cover the works required to bring many properties up to EPC E — let alone the forthcoming EPC C standard. In real terms, the cap has fallen significantly since 2015 due to building cost inflation.\n\nThe Government's confirmed position on the PRS MEES uplift (Warm Homes Plan, January 2026) sets the replacement cap at £10,000 per property for the EPC C requirement (replacing an earlier consultation proposal of £15,000). Key features of the new cap:\n• Applies to required energy efficiency improvements to achieve EPC C, and includes the cost of procuring an EPC and specialist retrofit advice\n• Landlords may register a 10-year exemption (extended from 5 years) if the standard cannot be achieved within the £10,000 cap\n• The existing £3,500 cap remains in force for the current EPC E standard until the new regulations take effect\n• Third-party funding (e.g. Warm Homes: Local Grant, ECO, heat pump grants) can be counted against the cap\n• Works undertaken from 1 October 2025 count toward the future cap\n\nThe final cap level was set lower than many landlord groups lobbied for (NRLA and ARLA Propertymark had advocated for £15,000–£25,000), but higher than the status quo. Until the new SI comes into force (expected 2027), the existing £3,500 cap applies to EPC E compliance.",
+      "totemAngle": "The jump from GBP 3,500 to GBP 10,000 changes what counts as a reasonable retrofit budget per unit, and works from 1 October 2025 already count toward it. For PBSA operators that makes spend sequencing a live decision now: Totem's per-room consumption data shows which rooms are actually driving heating cost, so the cap is spent where it moves the meter rather than spread evenly across a block.",
+      "source": "MHCLG: Improving the Energy Performance of Privately Rented Homes — Government Response / Warm Homes Plan (January 2026)",
+      "sourceUrl": "https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes-2025-update/outcome/improving-the-energy-performance-of-privately-rented-homes-government-response-html"
     },
     {
       "id": "mees-res-2018-new",
@@ -96,6 +114,41 @@
       "sourceUrl": "https://www.legislation.gov.uk/uksi/2019/595/contents/made"
     },
     {
+      "id": "conservative-epc-c-2025-dropped",
+      "date": "2025-01-01",
+      "status": "superseded",
+      "title": "Conservative EPC C Target for New Tenancies by 2025 — Dropped",
+      "sectors": [
+        "Residential",
+        "Policy"
+      ],
+      "impact": "high",
+      "rating_minimum": null,
+      "summary": "The 2021 Conservative Government consultation proposed requiring EPC C for new residential tenancies by 2025 and all tenancies by 2028. This target was abandoned by Rishi Sunak in September 2023. Superseded by Labour's revised targets, now confirmed as a single EPC C date of 1 October 2030.",
+      "detail": "The 2021 BEIS consultation 'Improving the energy performance of privately rented homes' proposed:\n• EPC C required for new tenancies: from 2025\n• EPC C required for all tenancies: from 2028\n• Landlord spending cap: £10,000 per property\n\nIn September 2023, Prime Minister Rishi Sunak announced that the 2025 target would not proceed, citing the cost burden on landlords during the cost-of-living crisis. The announcement also removed several other green commitments, including boiler upgrade timelines.\n\nThe decision was welcomed by landlord associations (NRLA, ARLA) but criticised by environmental groups, housing charities and the Climate Change Committee, which warned it would delay the UK's net zero trajectory and lead to higher energy bills for renters in the long term.\n\nFollowing the July 2024 general election, the Labour Government reinstated the EPC C ambition. Its confirmed position (Warm Homes Plan, January 2026) sets a single compliance date of 1 October 2030 for all tenancies, with a £10,000 spending cap.",
+      "totemAngle": "The abandonment of the 2025 target is the reason much of the PBSA stock still sits at EPC D or E today. Operators who paused improvement works when it was dropped now face the confirmed 1 October 2030 deadline with less runway, and in-use consumption data is the quickest way to work out where that lost time is costing most.",
+      "source": "BEIS Consultation 2021 / PM Statement September 2023",
+      "sourceUrl": "https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes"
+    },
+    {
+      "id": "scotland-heat-buildings",
+      "date": "2026-01-01",
+      "status": "proposed",
+      "title": "Scotland: Heat in Buildings Bill — Draft Published",
+      "sectors": [
+        "Residential",
+        "PBSA/HMO",
+        "Policy"
+      ],
+      "impact": "high",
+      "rating_minimum": null,
+      "summary": "Scotland's draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill was published in November 2025. It was not introduced during Session 6, as Parliament dissolved ahead of the May 2026 election. Introduction is expected in Session 7 of the new Scottish Parliament. As of September 2026 the Bill has not been formally introduced.",
+      "detail": "The Scottish Government published the draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill on 18 November 2025, following the Cabinet Secretary for Housing's statement to Parliament. The Bill was not introduced before the May 2026 election and, as of September 2026, has not been introduced in Session 7. Key provisions of the draft Bill:\n\n• All buildings to have zero direct emissions heating systems by 2045\n• Fossil fuel heating systems (gas and oil boilers) to become non-compliant on a statutory timeline\n• A legislative framework for heat network licensing and installation standards\n• Introduction in Session 7 is intended as early as possible, subject to the priorities of the incoming Scottish Government\n\nSeparately, the Scottish Government consulted between June and August 2025 on draft Energy Efficiency (Domestic Private Rented Property) (Scotland) Regulations, proposing EPC Heat Retention Rating Band C for new lets from 2028 and all lets by 2033. That consultation closed at the end of August 2025 and remains under analysis; Ministers have not yet taken decisions.\n\nScotland's reformed EPC regime, which supplies the Heat Retention Rating those proposals rely on, has been delayed from 31 October 2026 to 30 April 2028 — see the separate milestone. That delay has knock-on implications for any PRS MEES standard built on the new metric, though the Scottish Government has not yet said whether the 2028 and 2033 dates will move with it.\n\nFor Scottish PBSA operators the direction is clear and more demanding than the MEES framework south of the border. Fossil fuel heating in Scottish student accommodation is expected to become non-compliant on a fixed statutory timeline, though the legislation to set that timeline is not yet before Parliament.",
+      "totemAngle": "Totem works with PBSA operators in Scotland to model the performance of existing heating systems and build the evidence base for compliant low-carbon upgrade programmes — from initial assessment through to post-installation verification.",
+      "source": "Scottish Government: Draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill, November 2025",
+      "sourceUrl": "https://www.gov.scot/publications/heat-in-buildings-plans/"
+    },
+    {
       "id": "renters-rights-act-2025",
       "date": "2026-05-01",
       "status": "in-force",
@@ -106,11 +159,45 @@
       ],
       "impact": "high",
       "rating_minimum": null,
-      "summary": "The Renters' Rights Act 2025 came into force on 1 May 2026, abolishing Section 21 'no fault' evictions and applying the new Decent Homes Standard to the private rented sector for the first time. Energy efficiency requirements (MEES) are now embedded as a criterion of the DHS, creating dual compliance obligations for landlords.",
-      "detail": "The Renters' Rights Act 2025 received Royal Assent and its key provisions took effect on 1 May 2026. Core changes:\n\n• Section 21 'no fault' evictions abolished: landlords may only terminate tenancies using specified grounds under Section 8\n• Decent Homes Standard (DHS) extended to the private rented sector for the first time — properties must now meet the DHS, which includes energy efficiency and thermal comfort criteria\n• A new Private Rented Sector Database is being established, requiring landlords to register their properties\n• MEES requirements form criterion D of the new DHS, meaning EPC compliance obligations are now embedded in broader fitness standards — a below-minimum EPC triggers both a MEES breach and a DHS non-compliance\n• Landlords with tenancies created before 1 May 2026 were required to provide tenants with a statutory Information Sheet by 31 May 2026 (fines up to £7,000 for non-compliance)\n\nFor PBSA operators, the Act reinforces the link between energy efficiency and legal compliance. A property below the required EPC standard no longer only breaches MEES but also triggers DHS non-compliance, creating dual enforcement risk from both local housing authorities and trading standards.",
-      "totemAngle": "The Act embeds energy performance into the core legal standard for private rental — Totem's live monitoring helps PBSA operators maintain continuous DHS compliance evidence and flag buildings at risk of falling below EPC thresholds before enforcement action is triggered.",
-      "source": "Renters' Rights Act 2025 / MHCLG Renters' Rights Act Information Sheet 2026 (published 20 March 2026)",
-      "sourceUrl": "https://www.legislation.gov.uk/ukpga/2025/26/contents"
+      "summary": "The Renters' Rights Act 2025 came into force on 1 May 2026, abolishing Section 21 'no fault' evictions and reforming possession grounds, rent increases and enforcement. Correction to earlier editions of this timeline: the Decent Homes Standard has NOT been extended to the private rented sector — that is Phase 3 of implementation and the date is still to be settled following consultation, with 2035 or 2037 proposed.",
+      "detail": "The Renters' Rights Act 2025 received Royal Assent on 27 October 2025 and its first phase of measures took effect on 1 May 2026. MHCLG is implementing the Act in three phases.\n\nPhase 1 — in force 1 May 2026:\n\n• Section 21 'no fault' evictions abolished; landlords may only seek possession on specified Section 8 grounds\n• Assured periodic tenancies replace fixed terms for the great majority of new and existing PRS tenancies\n• Rent increases limited to once a year via a revised Section 13 procedure\n• Rental bidding banned and rent in advance capped at one month\n• Discrimination against tenants with children or on benefits made unlawful\n• Landlords must consider tenant requests to keep a pet\n• Expanded local council enforcement powers and rent repayment orders; investigatory powers had already commenced on 27 December 2025\n• Landlords with tenancies created before 1 May 2026 had to give tenants the statutory Information Sheet on or before 31 May 2026\n• A separate statutory instrument exempts private purpose-built student accommodation that complies with the UNIPOL or ANUK codes approved under section 233 of the Housing Act 2004 from the assured tenancy system, and preserves an amended Ground 4A for existing tenancies\n\nPhase 2 — from late 2026: the PRS Database and, later, the PRS Landlord Ombudsman, with mandatory Ombudsman membership expected in 2028. Act reforms extend to the social rented sector in 2027.\n\nPhase 3 — date to be confirmed: a modernised Decent Homes Standard and the extension of Awaab's Law to the PRS. MHCLG consulted between 2 July and 12 September 2025 and proposed bringing the new DHS into force in either 2035 or 2037. Responses are still being considered and the milestone table in the official roadmap records the DHS implementation date as 'TBC - subject to consultation'.\n\nCorrection: earlier editions of this timeline stated that the DHS applied to the PRS from 1 May 2026 and that MEES formed a criterion of it. That was wrong. MEES obligations under the 2015 PRS Regulations and the forthcoming EPC C standard run on their own separate track, and there is currently no dual MEES/DHS enforcement exposure in the private rented sector.",
+      "totemAngle": "For PBSA operators the practical point is that the assured tenancy reforms largely bypass code-compliant private PBSA, while the energy efficiency obligations do not. MEES remains the binding energy standard, and the EPC C deadline of 1 October 2030 is the date that matters. Totem's per-room consumption and control data supports the retrofit case on that track rather than the tenancy one.",
+      "source": "Renters' Rights Act 2025; MHCLG: Implementing the Renters' Rights Act 2025 — Implementation Roadmap (published 13 November 2025, updated 30 July 2026)",
+      "sourceUrl": "https://www.gov.uk/government/publications/renters-rights-act-2025-implementation-roadmap/implementing-the-renters-rights-act-2025-our-roadmap-for-reforming-the-private-rented-sector"
+    },
+    {
+      "id": "prs-database-2026",
+      "date": "2026-10-01",
+      "status": "upcoming",
+      "title": "Private Rented Sector Database — EPC Recorded Per Property (From Late 2026)",
+      "sectors": [
+        "residential",
+        "student"
+      ],
+      "impact": "medium",
+      "rating_minimum": null,
+      "summary": "Phase 2 of the Renters' Rights Act 2025 begins the regional rollout of the Private Rented Sector Database from late 2026. Registration is mandatory for PRS landlords and the recorded information includes each property's Energy Performance Certificate, making EPC status a matter of public record for the first time. No precise commencement date has been published.",
+      "detail": "MHCLG's implementation roadmap for the Renters' Rights Act 2025 sets out a regional rollout of the PRS Database from late 2026, with the Ombudsman following in a second stage. Registration will be mandatory for private rented sector landlords, who will pay an annual fee to be confirmed closer to launch.\n\nRegulations will require landlords to supply, as a minimum, for each property:\n\n• The landlord's contact details, including all joint landlords\n• Property details — full address, property type, number of bedrooms, number of households or residents, and whether the property is occupied and furnished\n• Safety information, explicitly including gas, electrical and Energy Performance Certificates\n\nPublic access and data sharing will be switched on after landlord registration goes live. The exact commencement date within 'late 2026' has not been published, so the date shown here is indicative rather than confirmed.\n\nScope note: private purpose-built student accommodation that complies with the UNIPOL or ANUK codes approved under section 233 of the Housing Act 2004 is exempt from the assured tenancy regime under a separate statutory instrument in force from 1 May 2026. Whether that exemption also removes such PBSA from the Database duty has not been confirmed in the published regulations, and operators should not assume it does.",
+      "totemAngle": "Once EPC data sits on a public register alongside the address, a weak certificate stops being a private compliance detail and becomes visible to prospective tenants, lenders and enforcement teams. For PBSA operators running electric heating, Totem's per-room consumption record is the practical way to show that a building performs better in use than its certificate suggests, and to evidence which rooms are actually driving the load.",
+      "source": "MHCLG: Implementing the Renters' Rights Act 2025 — Our roadmap for reforming the Private Rented Sector (published 13 November 2025, updated 30 July 2026)",
+      "sourceUrl": "https://www.gov.uk/government/publications/renters-rights-act-2025-implementation-roadmap/implementing-the-renters-rights-act-2025-our-roadmap-for-reforming-the-private-rented-sector"
+    },
+    {
+      "id": "mees-nondom-c-2028",
+      "date": "2027-04-01",
+      "status": "superseded",
+      "title": "Non-Domestic MEES Interim EPC C (2027) — Dropped",
+      "sectors": [
+        "Commercial",
+        "PBSA/HMO"
+      ],
+      "impact": "high",
+      "rating_minimum": "C",
+      "summary": "The proposed interim non-domestic MEES EPC C target (originally 2027) has been formally dropped. In its interim response of 18 June 2026 to the 2019 and 2021 non-domestic MEES consultations, the Government confirmed it will not proceed with the interim EPC C milestone, moving straight to an EPC B standard for larger commercial buildings by 2031.",
+      "detail": "The previous Conservative Government had consulted on a stepped trajectory for non-domestic MEES: EPC C by 2027, followed by EPC B by 2030. On 18 June 2026 the Government published its interim response to the 2019 and 2021 non-domestic MEES consultations and confirmed that, given the passage of time, the interim EPC C requirement will not be taken forward.\n\nInstead of the interim C step, the Government has set a single uplift to EPC B for privately rented non-domestic buildings over 1,000 m² from 2031 (see 'Non-Domestic MEES — EPC B by 2031'). Buildings under 1,000 m² remain subject to the existing EPC E minimum. Existing flexibility mechanisms — the seven-year payback test and exemptions — remain in place.\n\nFor PBSA operators with non-domestically rated stock, the dropped interim C target removes a near-term 2027 pressure point, but the direction of travel toward a demanding EPC B standard for larger buildings is now confirmed. This entry is retained for historical continuity and is superseded by the 2031 EPC B milestone.",
+      "totemAngle": "Totem's BMS integration and live energy analytics give PBSA operators the performance data needed to model EPC trajectories against the confirmed 2031 EPC B target — and to prioritise capital expenditure now that the interim C step has been removed.",
+      "source": "DESNZ/MHCLG: Minimum Energy Efficiency Standards (MEES) in the Non-Domestic Private Rented Sector — Interim Response (18 June 2026)",
+      "sourceUrl": "https://www.gov.uk/government/consultations/non-domestic-private-rented-sector-minimum-energy-efficiency-standards-epc-b-implementation/outcome/minimum-energy-efficiency-standards-mees-in-the-non-domestic-private-rented-sector-interim-response"
     },
     {
       "id": "epc-reform-methodology",
@@ -124,28 +211,12 @@
         "Policy"
       ],
       "impact": "high",
-      "summary": "The UK Government is replacing the SAP-based EPC methodology with the new Home Energy Model (HEM), introducing four headline metrics: fabric performance, heating system, smart readiness, and energy cost. A partial government response was published in January 2026; the HEM:EPC methodology consultation ran January–March 2026 and closed on 18 March 2026. Government is analysing responses — a full response is expected later in 2026, with a specific HEM launch date to be confirmed by summer 2026. Full implementation expected second half of 2027.",
-      "detail": "The reformed EPC framework replaces SAP (Standard Assessment Procedure) with the Home Energy Model (HEM). Key developments in 2025–2026:\n\n• January 2026: MHCLG/DESNZ published a partial government response to the EPB Reforms consultation, confirming the direction of EPC reform and some implementation details.\n• January–March 2026: A further consultation ran on HEM:EPC methodology — specifically how each of the four new metrics will be calculated and banded on the new-style certificate. This consultation closed on 18 March 2026 and government is analysing responses. A full government response is expected later in 2026, alongside conclusions on outstanding EPB reform questions (DEC validity, EPC data, quality management, ACIRs).\n• Following engagement with industry on the delivery timeline, government has moved the launch of the reforms to the second half of 2027 (delayed from the earlier October 2026 target). A specific HEM launch date is expected to be confirmed by summer 2026.\n\nThe four new headline EPC metrics are:\n1. Fabric Performance — insulation and building fabric quality\n2. Heating System — efficiency and carbon intensity of the installed heat source\n3. Smart Readiness — ability to respond to grid signals and optimise consumption\n4. Energy Cost — estimated running costs for occupants\n\nFor non-domestic buildings (including many PBSA assets assessed under SBEM), the existing single carbon-based headline metric will be retained for now. Updates to the National Calculation Methodology for non-domestic buildings are expected, but the non-domestic transition timeline has not yet been confirmed. Outstanding questions on how non-domestic HEM methodology will apply to PBSA remain subject to further DESNZ guidance.",
-      "totemAngle": "Totem's metered consumption data becomes even more valuable under the new HEM framework that weights actual energy use, heating system performance, and smart readiness — real-time monitoring data directly supports favourable assessments under the new metrics.",
-      "source": "MHCLG/DESNZ: Reforms to the Energy Performance of Buildings Regime — Partial Government Response (January 2026); HEM:EPC Methodology Consultation (closed 18 March 2026, response pending)",
+      "rating_minimum": null,
+      "summary": "The UK Government is replacing the SAP-based EPC methodology with the Home Energy Model (HEM), introducing four headline metrics: fabric performance, heating system, smart readiness and energy cost. The HEM:EPC methodology consultation closed on 18 March 2026 and the full government response is still outstanding. Implementation remains committed to 'the second half of 2027', but the specific launch date expected by summer 2026 has not been published — as of 24 August 2026 the UK Government had not reached final decisions.",
+      "detail": "The reformed EPC framework replaces SAP with the Home Energy Model. Position as at September 2026:\n\n• January 2026: MHCLG and DESNZ published a partial government response to the EPB Reforms consultation, confirming the direction of reform. A further response covering DEC validity, EPC and DEC data, EPC quality management and air conditioning inspection reports is still to be published.\n• January to March 2026: a further consultation ran on HEM:EPC methodology — how each of the four metrics is calculated and banded. It closed on 18 March 2026 and the government response has not yet been published.\n• March 2026: government moved the launch of the reforms to the second half of 2027, from the earlier October 2026 target, and said a specific date would be confirmed by summer 2026.\n• August 2026: that specific date has still not been published. The Scottish Government recorded on 24 August 2026 that the UK Government 'has publicly committed to implementing its reforms during the second half of 2027' but 'has not reached final decisions' on detailed implementation. A shared UK-wide implementation plan has been agreed with the devolved administrations and the assessor industry, taking a phased approach to go-live.\n\nThe four new headline domestic EPC metrics are:\n1. Fabric Performance — insulation and building fabric quality\n2. Heating System — efficiency and carbon intensity of the installed heat source\n3. Smart Readiness — ability to respond to grid signals and optimise consumption\n4. Energy Cost — estimated running costs for occupants\n\nFor non-domestic buildings, including many PBSA assets assessed under SBEM, the existing single carbon-based headline metric is retained for now. Updates to the National Calculation Methodology are expected but the non-domestic transition timeline is not confirmed.\n\nPlanning point: with the methodology, the banding and the launch date all still unresolved, the EPC rating a PBSA asset will hold under the reformed regime cannot yet be calculated with confidence. The compliance deadlines, by contrast, are fixed.",
+      "totemAngle": "Smart readiness becomes a headline metric in its own right, which puts controllability on the certificate rather than in a footnote. Totem Connect gives per-room electric heating control and consumption data across a PBSA block, so operators can evidence how the building is actually operated while the banding rules are still being written — and can show which rooms would benefit most once they are.",
+      "source": "MHCLG/DESNZ: Reforms to the Energy Performance of Buildings Regime — Partial Government Response (January 2026); HEM:EPC Methodology Consultation (closed 18 March 2026, response outstanding); Scottish Government EPC Reform updates (24 August 2026)",
       "sourceUrl": "https://www.gov.uk/government/consultations/reforms-to-the-energy-performance-of-buildings-regime/outcome/reforms-to-the-energy-performance-of-buildings-regime-partial-government-response"
-    },
-    {
-      "id": "scotland-heat-buildings",
-      "date": "2026-01-01",
-      "status": "proposed",
-      "title": "Scotland: Heat in Buildings Bill — Draft Published",
-      "sectors": [
-        "Residential",
-        "PBSA/HMO",
-        "Policy"
-      ],
-      "impact": "high",
-      "summary": "Scotland's draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill was published in November 2025. The Bill was not introduced during Session 6 (parliament dissolved ahead of the May 2026 election). Introduction to Parliament is now expected in Session 7 of the new Scottish Parliament, as early as possible following the election. As of July 2026 the Bill has not yet been formally introduced.",
-      "detail": "The Scottish Government published the draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill on 18 November 2025, following the Cabinet Secretary for Housing's statement to Parliament. The Bill was not introduced to the Session 6 parliament before the May 2026 election, and as of July 2026 has not yet been formally introduced in Session 7. Key provisions of the draft Bill:\n\n• All buildings must have zero direct emissions heating systems by 2045\n• Fossil fuel heating systems (gas boilers, oil boilers) will become non-compliant on a statutory timeline\n• The Bill also provides the legislative framework for heat network licensing and installation standards\n• Introduction to Parliament in Session 7 (new parliament) is intended as early as possible, subject to the priorities of the incoming Scottish Government following the May 2026 election\n\nSeparately, the Scottish Government consulted between June–August 2025 on draft Energy Efficiency (Domestic Private Rented Property) (Scotland) Regulations, proposing:\n• EPC Heat Retention Rating Band C required for new lets from 2028\n• All lets from 2033\n\nScotland is also rolling out new-style EPC regulations (with a redesigned certificate) planned to come into force in October 2026, ahead of the England and Wales HEM reform.\n\nFor Scottish PBSA operators, the direction is clear and more demanding than the MEES framework south of the border. Fossil fuel heating in Scottish student accommodation will become non-compliant on a fixed statutory timeline.",
-      "totemAngle": "Totem works with PBSA operators in Scotland to model the performance of existing heating systems and build the evidence base for compliant low-carbon upgrade programmes — from initial assessment through to post-installation verification.",
-      "source": "Scottish Government: Draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill, November 2025",
-      "sourceUrl": "https://www.gov.scot/publications/heat-in-buildings-plans/"
     },
     {
       "id": "scotland-prs-mees-c-2028",
@@ -158,8 +229,8 @@
       ],
       "impact": "high",
       "rating_minimum": "C",
-      "summary": "Scotland is consulting on requiring all new private rented sector tenancies to meet EPC Heat Retention Rating Band C from 2028, with all tenancies required to comply by 2033. Separate from and running in parallel with the England and Wales MEES EPC C proposals.",
-      "detail": "The Scottish Government consulted (June–August 2025) on draft Energy Efficiency (Domestic Private Rented Property) (Scotland) Regulations under existing powers, independent of the Heat in Buildings Bill. Key proposals:\n\n• New lets: EPC Heat Retention Rating Band C from 2028\n• All existing lets: compliance required by 2033\n\nImportant distinctions from England and Wales MEES:\n• Scotland uses a separate EPC methodology that is also being reformed — new EPC regulations planned for October 2026 introduce a redesigned certificate\n• The 'Heat Retention Rating' metric may differ from the fabric or overall EPC rating used in England and Wales MEES\n• Enforcement and exemption frameworks are set separately by Scottish Ministers\n\nFor PBSA operators with Scottish assets, this creates a distinct compliance obligation running alongside (and in some respects ahead of) the England and Wales timeline. The 2033 all-lets date is more generous than England's confirmed 2030 date, but the Heat in Buildings Bill requirements on heating systems decarbonisation are significantly more demanding.",
+      "summary": "Scotland consulted on requiring new private rented sector tenancies to meet EPC Heat Retention Rating Band C from 2028, with all tenancies by 2033. The consultation closed at the end of August 2025 and Ministers have not yet responded. The metric it depends on now arrives on 30 April 2028, which puts the proposed 2028 start date in question.",
+      "detail": "The Scottish Government consulted (June–August 2025) on draft Energy Efficiency (Domestic Private Rented Property) (Scotland) Regulations under existing powers, independent of the Heat in Buildings Bill. Key proposals:\n\n• New lets: EPC Heat Retention Rating Band C from 2028\n• All existing lets: compliance required by 2033\n\nImportant distinctions from England and Wales MEES:\n• Scotland uses a separate EPC methodology that is also being reformed — the redesigned certificate and the Heat Retention Rating now arrive on 30 April 2028, delayed from 31 October 2026\n• The 'Heat Retention Rating' metric may differ from the fabric or overall EPC rating used in England and Wales MEES\n• Enforcement and exemption frameworks are set separately by Scottish Ministers\n\nFor PBSA operators with Scottish assets, this creates a distinct compliance obligation running alongside (and in some respects ahead of) the England and Wales timeline. The 2033 all-lets date is more generous than England's confirmed 2030 date, but the Heat in Buildings Bill requirements on heating systems decarbonisation are significantly more demanding.\n\nTiming risk (September 2026): the Heat Retention Rating on which this standard would be set does not exist as a lodged certificate metric until 30 April 2028. A new-lets standard commencing in 2028 would therefore have almost no stock of Heat Retention Rating certificates to work from. The Scottish Government has not published a response to the June to August 2025 consultation and has not confirmed whether the 2028 and 2033 dates will shift. Treat both dates as unsettled.",
       "totemAngle": "Totem's live energy monitoring provides the portfolio-level performance data Scottish PBSA operators need to identify which buildings require intervention under the new Heat Retention Rating standard, and to demonstrate progress to regulators.",
       "source": "Scottish Government: Draft Energy Efficiency (Domestic Private Rented Property) (Scotland) Regulations — Consultation, June 2025",
       "sourceUrl": "https://www.gov.scot/publications/consultation-draft-energy-efficiency-domestic-private-rented-property-scotland-regulations/pages/2/"
@@ -183,21 +254,37 @@
       "sourceUrl": "https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes-2025-update/outcome/improving-the-energy-performance-of-privately-rented-homes-government-response-html"
     },
     {
-      "id": "mees-nondom-c-2028",
-      "date": "2027-04-01",
-      "status": "superseded",
-      "title": "Non-Domestic MEES Interim EPC C (2027) — Dropped",
+      "id": "scotland-epc-reform-2028",
+      "date": "2028-04-30",
+      "status": "upcoming",
+      "title": "Scotland: New-Style EPCs In Force — Delayed to 30 April 2028",
       "sectors": [
-        "Commercial",
+        "all"
+      ],
+      "impact": "high",
+      "rating_minimum": null,
+      "summary": "Scotland's reformed EPC regime — redesigned certificates, new rating metrics and a five-year validity period — will no longer come into force on 31 October 2026. In an update published on 24 August 2026 the Scottish Government confirmed the Energy Performance of Buildings (Scotland) Regulations 2025 will instead commence on 30 April 2028, with a one-year transition to 30 April 2029.",
+      "detail": "The Energy Performance of Buildings (Scotland) Regulations 2025 were approved by the Scottish Parliament in December 2025 and were due to come fully into force on 31 October 2026. Following the UK Government's delay of its own EPC reforms to the second half of 2027, and extensive engagement with the assessor industry, the Scottish Government confirmed on 24 August 2026 that commencement moves to 30 April 2028. The Energy Performance of Buildings (Scotland) Amendment Regulations 2026 make the change, which is subject to Parliamentary scrutiny.\n\nWhat this means in practice:\n\n• The 2008 Regulations and the current Scottish EPC system remain in place until spring 2028\n• From 30 April 2028 assessors can only issue new-style EPCs, but a valid old-style EPC may still be used in a sale or let until 30 April 2029 (or until the property is sold or let, whichever is sooner)\n• After 30 April 2029 only new-style EPCs are permitted for sale or let; short-term lets follow the same one-year grace period\n• Large non-domestic buildings frequently visited by the public (Regulation 13 display duty) get a five-year grace period, running to 30 April 2033 or the expiry of the displayed certificate, whichever is earlier\n• New buildings completed on or after 30 April 2028 require a new-style EPC and Property Report within seven days of the completion certificate\n• EPC lodgement fees still rise as planned on 31 October 2026: from GBP 2.60 to GBP 6.00 for domestic and GBP 12.10 to GBP 15.50 for other properties\n• Regulations 11 and 12 (Scottish EPC Accreditation Scheme and Approved Organisations) came into force on 1 January 2026 and are unaffected\n\nThe delay does not change the substance of the reforms — the new Heat Retention Rating, Heating System Rating and Energy Cost Rating for domestic EPCs, and the reduced five-year validity period, all still apply from the new date.",
+      "totemAngle": "Scottish PBSA operators have gained roughly 18 months before new-style EPCs become compulsory, but the Heat Retention Rating that PRS MEES is expected to be built on is unchanged — so the fabric and heating work required has simply moved, not shrunk. Totem's room-level monitoring of electrically heated rooms gives operators in-use consumption evidence over that longer window, so retrofit decisions can be tested against real building data rather than against a modelled certificate that is itself being rewritten.",
+      "source": "Scottish Government: Energy Performance Certificate Reform — updates, 24 August 2026 update (published 27 August 2026)",
+      "sourceUrl": "https://www.gov.scot/publications/energy-performance-certificate-reform-updates/pages/24-august-2026/"
+    },
+    {
+      "id": "mees-social-c-2030",
+      "date": "2030-04-01",
+      "status": "proposed",
+      "title": "Proposed: Social Rented Sector MEES — EPC C by 2030 (England)",
+      "sectors": [
+        "Residential",
         "PBSA/HMO"
       ],
       "impact": "high",
       "rating_minimum": "C",
-      "summary": "The proposed interim non-domestic MEES EPC C target (originally 2027) has been formally dropped. In its interim response of 18 June 2026 to the 2019 and 2021 non-domestic MEES consultations, the Government confirmed it will not proceed with the interim EPC C milestone, moving straight to an EPC B standard for larger commercial buildings by 2031.",
-      "detail": "The previous Conservative Government had consulted on a stepped trajectory for non-domestic MEES: EPC C by 2027, followed by EPC B by 2030. On 18 June 2026 the Government published its interim response to the 2019 and 2021 non-domestic MEES consultations and confirmed that, given the passage of time, the interim EPC C requirement will not be taken forward.\n\nInstead of the interim C step, the Government has set a single uplift to EPC B for privately rented non-domestic buildings over 1,000 m² from 2031 (see 'Non-Domestic MEES — EPC B by 2031'). Buildings under 1,000 m² remain subject to the existing EPC E minimum. Existing flexibility mechanisms — the seven-year payback test and exemptions — remain in place.\n\nFor PBSA operators with non-domestically rated stock, the dropped interim C target removes a near-term 2027 pressure point, but the direction of travel toward a demanding EPC B standard for larger buildings is now confirmed. This entry is retained for historical continuity and is superseded by the 2031 EPC B milestone.",
-      "totemAngle": "Totem's BMS integration and live energy analytics give PBSA operators the performance data needed to model EPC trajectories against the confirmed 2031 EPC B target — and to prioritise capital expenditure now that the interim C step has been removed.",
-      "source": "DESNZ/MHCLG: Minimum Energy Efficiency Standards (MEES) in the Non-Domestic Private Rented Sector — Interim Response (18 June 2026)",
-      "sourceUrl": "https://www.gov.uk/government/consultations/non-domestic-private-rented-sector-minimum-energy-efficiency-standards-epc-b-implementation/outcome/minimum-energy-efficiency-standards-mees-in-the-non-domestic-private-rented-sector-interim-response"
+      "summary": "The Government's response to the social rented homes energy efficiency consultation (published 1 April 2026) confirmed that all social rented homes in England must meet EPC C or equivalent by 1 April 2030 — the first statutory minimum EPC standard for the social rented sector. A second-metric compliance requirement follows by 2039. Subject to a statutory instrument.",
+      "detail": "MHCLG published the government response to 'Improving the Energy Efficiency of Socially Rented Homes in England' on 1 April 2026. Key confirmed decisions:\n\n• Phase 1 (by 1 April 2030): Social housing providers must ensure all social rented properties meet EPC C or equivalent against any ONE of: fabric performance, smart readiness, or heating system (under reformed EPC metrics), or have a valid exemption registered\n• Phase 2 (by 1 April 2039): Properties must also meet EPC C against a SECOND EPC metric from the same set\n• Spending exemption: Providers may register an exemption if the standard cannot be achieved within the applicable spend threshold (at least £10,000 for the second-metric exemption)\n• A statutory instrument is required to give these requirements legal force\n\nSocial rented homes are currently not subject to any statutory MEES standard — this represents an entirely new compliance obligation for housing associations and local authority landlords. The 2030 deadline aligns with the private rented sector EPC C deadline.\n\nFor PBSA operators who manage accommodation under nomination agreements or partnership arrangements with social landlords, this framework may create indirect compliance considerations. The dual-metric approach mirrors the PRS MEES framework and is designed to align with the reformed HEM-based EPC regime expected in 2027.",
+      "totemAngle": "PBSA operators providing accommodation under nomination agreements or partnerships with social landlords should note this new compliance obligation — Totem's portfolio energy monitoring provides the evidence base to demonstrate EPC performance across mixed-tenure and mixed-landlord stock.",
+      "source": "MHCLG: Improving the Energy Efficiency of Socially Rented Homes in England — Government Response (1 April 2026)",
+      "sourceUrl": "https://www.gov.uk/government/consultations/improving-the-energy-efficiency-of-socially-rented-homes-in-england/outcome/improving-the-energy-efficiency-of-socially-rented-homes-in-england-government-response"
     },
     {
       "id": "mees-res-c-2030",
@@ -218,23 +305,6 @@
       "sourceUrl": "https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes-2025-update/outcome/improving-the-energy-performance-of-privately-rented-homes-government-response-html"
     },
     {
-      "id": "mees-social-c-2030",
-      "date": "2030-04-01",
-      "status": "proposed",
-      "title": "Proposed: Social Rented Sector MEES — EPC C by 2030 (England)",
-      "sectors": [
-        "Residential",
-        "PBSA/HMO"
-      ],
-      "impact": "high",
-      "rating_minimum": "C",
-      "summary": "The Government's response to the social rented homes energy efficiency consultation (published 1 April 2026) confirmed that all social rented homes in England must meet EPC C or equivalent by 1 April 2030 — the first statutory minimum EPC standard for the social rented sector. A second-metric compliance requirement follows by 2039. Subject to a statutory instrument.",
-      "detail": "MHCLG published the government response to 'Improving the Energy Efficiency of Socially Rented Homes in England' on 1 April 2026. Key confirmed decisions:\n\n• Phase 1 (by 1 April 2030): Social housing providers must ensure all social rented properties meet EPC C or equivalent against any ONE of: fabric performance, smart readiness, or heating system (under reformed EPC metrics), or have a valid exemption registered\n• Phase 2 (by 1 April 2039): Properties must also meet EPC C against a SECOND EPC metric from the same set\n• Spending exemption: Providers may register an exemption if the standard cannot be achieved within the applicable spend threshold (at least £10,000 for the second-metric exemption)\n• A statutory instrument is required to give these requirements legal force\n\nSocial rented homes are currently not subject to any statutory MEES standard — this represents an entirely new compliance obligation for housing associations and local authority landlords. The 2030 deadline aligns with the private rented sector EPC C deadline.\n\nFor PBSA operators who manage accommodation under nomination agreements or partnership arrangements with social landlords, this framework may create indirect compliance considerations. The dual-metric approach mirrors the PRS MEES framework and is designed to align with the reformed HEM-based EPC regime expected in 2027.",
-      "totemAngle": "PBSA operators providing accommodation under nomination agreements or partnerships with social landlords should note this new compliance obligation — Totem's portfolio energy monitoring provides the evidence base to demonstrate EPC performance across mixed-tenure and mixed-landlord stock.",
-      "source": "MHCLG: Improving the Energy Efficiency of Socially Rented Homes in England — Government Response (1 April 2026)",
-      "sourceUrl": "https://www.gov.uk/government/consultations/improving-the-energy-efficiency-of-socially-rented-homes-in-england/outcome/improving-the-energy-efficiency-of-socially-rented-homes-in-england-government-response"
-    },
-    {
       "id": "mees-nondom-b-2030",
       "date": "2031-01-01",
       "status": "proposed",
@@ -250,36 +320,6 @@
       "totemAngle": "Totem's continuous monitoring platform provides the performance data needed to demonstrate EPC B-equivalent operation and identify the precise energy gap between current and target performance for larger PBSA blocks — building the business case for investment ahead of the confirmed 2031 deadline.",
       "source": "DESNZ/MHCLG: Minimum Energy Efficiency Standards (MEES) in the Non-Domestic Private Rented Sector — Interim Response (18 June 2026)",
       "sourceUrl": "https://www.gov.uk/government/consultations/non-domestic-private-rented-sector-minimum-energy-efficiency-standards-epc-b-implementation/outcome/minimum-energy-efficiency-standards-mees-in-the-non-domestic-private-rented-sector-interim-response"
-    },
-    {
-      "id": "conservative-epc-c-2025-dropped",
-      "date": "2025-01-01",
-      "status": "superseded",
-      "title": "Conservative EPC C Target for New Tenancies by 2025 — Dropped",
-      "sectors": [
-        "Residential",
-        "Policy"
-      ],
-      "impact": "high",
-      "summary": "The 2021 Conservative Government consultation proposed requiring EPC C for new residential tenancies by 2025 and all tenancies by 2028. This target was abandoned by Rishi Sunak in September 2023. Superseded by Labour's revised targets, now confirmed as a single EPC C date of 1 October 2030.",
-      "detail": "The 2021 BEIS consultation 'Improving the energy performance of privately rented homes' proposed:\n• EPC C required for new tenancies: from 2025\n• EPC C required for all tenancies: from 2028\n• Landlord spending cap: £10,000 per property\n\nIn September 2023, Prime Minister Rishi Sunak announced that the 2025 target would not proceed, citing the cost burden on landlords during the cost-of-living crisis. The announcement also removed several other green commitments, including boiler upgrade timelines.\n\nThe decision was welcomed by landlord associations (NRLA, ARLA) but criticised by environmental groups, housing charities and the Climate Change Committee, which warned it would delay the UK's net zero trajectory and lead to higher energy bills for renters in the long term.\n\nFollowing the July 2024 general election, the Labour Government reinstated the EPC C ambition. Its confirmed position (Warm Homes Plan, January 2026) sets a single compliance date of 1 October 2030 for all tenancies, with a £10,000 spending cap.",
-      "source": "BEIS Consultation 2021 / PM Statement September 2023",
-      "sourceUrl": "https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes"
-    },
-    {
-      "id": "cost-cap-3500-superseded",
-      "date": "2015-04-01",
-      "status": "superseded",
-      "title": "£3,500 MEES Cost Cap — To Be Replaced by £10,000 Cap",
-      "sectors": [
-        "Residential",
-        "Policy"
-      ],
-      "impact": "medium",
-      "summary": "The existing £3,500 net cost cap (above which landlords can register a cost cap exemption from MEES) was set in 2015. The Government's confirmed position (Warm Homes Plan, January 2026) replaces this with a £10,000 cap for the EPC C requirement, with a 10-year exemption validity period.",
-      "detail": "The £3,500 cost cap has been criticised as too low to cover the works required to bring many properties up to EPC E — let alone the forthcoming EPC C standard. In real terms, the cap has fallen significantly since 2015 due to building cost inflation.\n\nThe Government's confirmed position on the PRS MEES uplift (Warm Homes Plan, January 2026) sets the replacement cap at £10,000 per property for the EPC C requirement (replacing an earlier consultation proposal of £15,000). Key features of the new cap:\n• Applies to required energy efficiency improvements to achieve EPC C, and includes the cost of procuring an EPC and specialist retrofit advice\n• Landlords may register a 10-year exemption (extended from 5 years) if the standard cannot be achieved within the £10,000 cap\n• The existing £3,500 cap remains in force for the current EPC E standard until the new regulations take effect\n• Third-party funding (e.g. Warm Homes: Local Grant, ECO, heat pump grants) can be counted against the cap\n• Works undertaken from 1 October 2025 count toward the future cap\n\nThe final cap level was set lower than many landlord groups lobbied for (NRLA and ARLA Propertymark had advocated for £15,000–£25,000), but higher than the status quo. Until the new SI comes into force (expected 2027), the existing £3,500 cap applies to EPC E compliance.",
-      "source": "MHCLG: Improving the Energy Performance of Privately Rented Homes — Government Response / Warm Homes Plan (January 2026)",
-      "sourceUrl": "https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes-2025-update/outcome/improving-the-energy-performance-of-privately-rented-homes-government-response-html"
     }
   ]
 }
