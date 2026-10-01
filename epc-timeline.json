@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated": "2026-09-01",
+    "updated": "2026-10-01",
     "source": "Totem — curated from DESNZ, MHCLG, legislation.gov.uk and official consultations",
-    "next_review": "2026-10-01",
-    "version": "1.4",
+    "next_review": "2026-11-01",
+    "version": "1.5",
     "description": "UK EPC and MEES regulatory timeline data — totem.systems",
     "notes": "Proposed dates use 1 Jan / 1 Apr of target year as placeholder. Always verify against latest DESNZ / MHCLG publications."
   },
@@ -134,7 +134,7 @@
       "id": "scotland-heat-buildings",
       "date": "2026-01-01",
       "status": "proposed",
-      "title": "Scotland: Heat in Buildings Bill — Draft Published",
+      "title": "Scotland: Heat in Buildings Bill — Committed for 2026-27",
       "sectors": [
         "Residential",
         "PBSA/HMO",
@@ -142,11 +142,11 @@
       ],
       "impact": "high",
       "rating_minimum": null,
-      "summary": "Scotland's draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill was published in November 2025. It was not introduced during Session 6, as Parliament dissolved ahead of the May 2026 election. Introduction is expected in Session 7 of the new Scottish Parliament. As of September 2026 the Bill has not been formally introduced.",
-      "detail": "The Scottish Government published the draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill on 18 November 2025, following the Cabinet Secretary for Housing's statement to Parliament. The Bill was not introduced before the May 2026 election and, as of September 2026, has not been introduced in Session 7. Key provisions of the draft Bill:\n\n• All buildings to have zero direct emissions heating systems by 2045\n• Fossil fuel heating systems (gas and oil boilers) to become non-compliant on a statutory timeline\n• A legislative framework for heat network licensing and installation standards\n• Introduction in Session 7 is intended as early as possible, subject to the priorities of the incoming Scottish Government\n\nSeparately, the Scottish Government consulted between June and August 2025 on draft Energy Efficiency (Domestic Private Rented Property) (Scotland) Regulations, proposing EPC Heat Retention Rating Band C for new lets from 2028 and all lets by 2033. That consultation closed at the end of August 2025 and remains under analysis; Ministers have not yet taken decisions.\n\nScotland's reformed EPC regime, which supplies the Heat Retention Rating those proposals rely on, has been delayed from 31 October 2026 to 30 April 2028 — see the separate milestone. That delay has knock-on implications for any PRS MEES standard built on the new metric, though the Scottish Government has not yet said whether the 2028 and 2033 dates will move with it.\n\nFor Scottish PBSA operators the direction is clear and more demanding than the MEES framework south of the border. Fossil fuel heating in Scottish student accommodation is expected to become non-compliant on a fixed statutory timeline, though the legislation to set that timeline is not yet before Parliament.",
+      "summary": "Scotland's draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill was published in November 2025 but not introduced before the May 2026 election. The Programme for Government 2026 to 2031, published on 1 September 2026, includes the Bill in its Year One legislative programme, to be introduced during 2026-27. As of 1 October 2026 it has not yet been formally introduced.",
+      "detail": "The Scottish Government published the draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill on 18 November 2025, following the Cabinet Secretary for Housing's statement to Parliament. The Bill was not introduced before the May 2026 election. On 1 September 2026 the new Scottish Government's Programme for Government 2026 to 2031 listed it among the nine Bills in its Year One legislative programme, with a commitment to introduce it during 2026-27, describing its primary purpose as reducing direct emissions from heating Scotland's buildings. As of 1 October 2026 it has not been formally introduced. Key provisions of the draft Bill:\n\n• All buildings to have zero direct emissions heating systems by 2045\n• Fossil fuel heating systems (gas and oil boilers) to become non-compliant on a statutory timeline\n• A legislative framework for heat network licensing and installation standards\n• Introduction is now committed for the 2026-27 parliamentary year; the final provisions may differ from the November 2025 draft\n\nSeparately, the Scottish Government consulted between June and August 2025 on draft Energy Efficiency (Domestic Private Rented Property) (Scotland) Regulations, proposing EPC Heat Retention Rating Band C for new lets from 2028 and all lets by 2033. That consultation closed at the end of August 2025 and remains under analysis; Ministers have not yet taken decisions.\n\nScotland's reformed EPC regime, which supplies the Heat Retention Rating those proposals rely on, has been delayed from 31 October 2026 to 30 April 2028 — see the separate milestone. That delay has knock-on implications for any PRS MEES standard built on the new metric, though the Scottish Government has not yet said whether the 2028 and 2033 dates will move with it.\n\nFor Scottish PBSA operators the direction is clear and more demanding than the MEES framework south of the border. Fossil fuel heating in Scottish student accommodation is expected to become non-compliant on a fixed statutory timeline, though the legislation to set that timeline is not yet before Parliament and its final content will only be known once the Bill is introduced.",
       "totemAngle": "Totem works with PBSA operators in Scotland to model the performance of existing heating systems and build the evidence base for compliant low-carbon upgrade programmes — from initial assessment through to post-installation verification.",
-      "source": "Scottish Government: Draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill, November 2025",
-      "sourceUrl": "https://www.gov.scot/publications/heat-in-buildings-plans/"
+      "source": "Scottish Government: Programme for Government 2026 to 2031 — Year One Legislative Programme (1 September 2026); Draft Buildings (Heating and Energy Performance) and Heat Networks (Scotland) Bill (November 2025)",
+      "sourceUrl": "https://www.gov.scot/publications/programme-government-2026-2031/pages/6/"
     },
     {
       "id": "renters-rights-act-2025",
@@ -167,20 +167,20 @@
     },
     {
       "id": "prs-database-2026",
-      "date": "2026-10-01",
+      "date": "2026-12-15",
       "status": "upcoming",
-      "title": "Private Rented Sector Database — EPC Recorded Per Property (From Late 2026)",
+      "title": "Private Rented Sector Database — 'Register your rental property' Launches 15 December 2026",
       "sectors": [
         "residential",
         "student"
       ],
       "impact": "medium",
       "rating_minimum": null,
-      "summary": "Phase 2 of the Renters' Rights Act 2025 begins the regional rollout of the Private Rented Sector Database from late 2026. Registration is mandatory for PRS landlords and the recorded information includes each property's Energy Performance Certificate, making EPC status a matter of public record for the first time. No precise commencement date has been published.",
-      "detail": "MHCLG's implementation roadmap for the Renters' Rights Act 2025 sets out a regional rollout of the PRS Database from late 2026, with the Ombudsman following in a second stage. Registration will be mandatory for private rented sector landlords, who will pay an annual fee to be confirmed closer to launch.\n\nRegulations will require landlords to supply, as a minimum, for each property:\n\n• The landlord's contact details, including all joint landlords\n• Property details — full address, property type, number of bedrooms, number of households or residents, and whether the property is occupied and furnished\n• Safety information, explicitly including gas, electrical and Energy Performance Certificates\n\nPublic access and data sharing will be switched on after landlord registration goes live. The exact commencement date within 'late 2026' has not been published, so the date shown here is indicative rather than confirmed.\n\nScope note: private purpose-built student accommodation that complies with the UNIPOL or ANUK codes approved under section 233 of the Housing Act 2004 is exempt from the assured tenancy regime under a separate statutory instrument in force from 1 May 2026. Whether that exemption also removes such PBSA from the Database duty has not been confirmed in the published regulations, and operators should not assume it does.",
-      "totemAngle": "Once EPC data sits on a public register alongside the address, a weak certificate stops being a private compliance detail and becomes visible to prospective tenants, lenders and enforcement teams. For PBSA operators running electric heating, Totem's per-room consumption record is the practical way to show that a building performs better in use than its certificate suggests, and to evidence which rooms are actually driving the load.",
-      "source": "MHCLG: Implementing the Renters' Rights Act 2025 — Our roadmap for reforming the Private Rented Sector (published 13 November 2025, updated 30 July 2026)",
-      "sourceUrl": "https://www.gov.uk/government/publications/renters-rights-act-2025-implementation-roadmap/implementing-the-renters-rights-act-2025-our-roadmap-for-reforming-the-private-rented-sector"
+      "summary": "MHCLG confirmed on 9 September 2026 that the 'Register your rental property' service, the public name for the PRS Database, will launch on 15 December 2026, starting in the West Midlands. Landlords must register themselves and each let property, upload a copy of its Energy Performance Certificate and pay an annual fee of £65 per property.",
+      "detail": "The service rolls out region by region across England over 12 months. When a region is called forward, landlords with let property there have three months to register, after which councils can start enforcement. All landlords actively letting property must be registered by 14 November 2027. Failure to register risks a fine.\n\nConfirmed regional start dates and registration deadlines:\n\n• West Midlands: 15 December 2026 (deadline 14 March 2027)\n• East of England: 15 January 2027 (14 April 2027)\n• East Midlands: 15 February 2027 (14 May 2027)\n• South East: 15 March 2027 (14 June 2027)\n• Yorkshire and Humber: 15 April 2027 (14 July 2027)\n• North West: 15 May 2027 (14 August 2027)\n• North East: 15 June 2027 (14 September 2027)\n• London: 15 July 2027 (14 October 2027)\n• South West: 15 August 2027 (14 November 2027)\n\nDeadlines follow the property's location, not the landlord's. Landlords can register early, including all properties across several regions at once. For each property, landlords must supply address and dwelling details, occupancy, rent, gas and electrical safety records and a copy of the most recent EPC. Where the EPC is below the legal minimum, they must also state whether a MEES exemption has been registered.\n\nAt first only properties that are let, or become let during rollout, must be registered. Future legislation will require empty properties to be registered before marketing and registration numbers to appear on adverts. A public interface, letting tenants check whether a landlord has registered, will follow later.\n\nScope note: the duty applies to landlords of assured or regulated tenancies. Private PBSA that complies with the UNIPOL or ANUK codes was taken out of the assured tenancy system from 1 May 2026 by a separate statutory instrument, but MHCLG has not addressed PBSA directly in its registration guidance. Operators should check their position rather than assume they are out of scope, particularly for any HMO or non-code stock let on assured tenancies.",
+      "totemAngle": "Once EPC data sits on a national register alongside the address, a weak certificate stops being a private compliance detail and becomes visible to councils now and to prospective tenants later. For PBSA operators running electric heating, Totem's per-room consumption record shows how a building actually performs in use and which rooms are driving the load, which is the evidence needed to plan improvements before the 2030 EPC C deadline.",
+      "source": "MHCLG press release: Stronger protections and greater confidence for renters (9 September 2026); MHCLG Housing Hub: Get ready: 'Register your rental property' service (updated 10 September 2026)",
+      "sourceUrl": "https://www.gov.uk/government/news/stronger-protections-and-greater-confidence-for-renters"
     },
     {
       "id": "mees-nondom-c-2028",
