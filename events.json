@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated": "2026-09-01",
+    "updated": "2026-10-01",
     "source": "Totem — manually curated from official event pages",
-    "next_review": "2026-10-01"
+    "next_review": "2026-11-01"
   },
   "events": [
     {
@@ -34,20 +34,6 @@
       "url": "https://www.londonproptechshow.com/"
     },
     {
-      "id": "p04",
-      "cat": "PBSA",
-      "name": "WinPBSA Annual Summit 2026",
-      "org": "Global Student Living",
-      "date": "2026-03-25",
-      "end": "2026-03-26",
-      "loc": "Nobu Hotel, Marrakesh, Morocco",
-      "type": "Summit",
-      "priority": false,
-      "attending": false,
-      "desc": "Women in PBSA Summit — two days of collaboration, leadership and action for senior executives from across the residential living sector. Hosted at Nobu Hotel, Marrakesh. Limited capacity.",
-      "url": "https://gslglobal.com/events/winpbsa-annual-summit-2026/"
-    },
-    {
       "id": "en05",
       "cat": "Energy",
       "name": "edie 26 — Sustainable Business",
@@ -60,6 +46,20 @@
       "attending": false,
       "desc": "UK's longest-running sustainable business event. Energy & buildings track, climate resilience, circularity, innovation. 1,000+ sustainability leaders across sectors.",
       "url": "https://www.edie.net/"
+    },
+    {
+      "id": "p04",
+      "cat": "PBSA",
+      "name": "WinPBSA Annual Summit 2026",
+      "org": "Global Student Living",
+      "date": "2026-03-25",
+      "end": "2026-03-26",
+      "loc": "Nobu Hotel, Marrakesh, Morocco",
+      "type": "Summit",
+      "priority": false,
+      "attending": false,
+      "desc": "Women in PBSA Summit — two days of collaboration, leadership and action for senior executives from across the residential living sector. Hosted at Nobu Hotel, Marrakesh. Limited capacity.",
+      "url": "https://gslglobal.com/events/winpbsa-annual-summit-2026/"
     },
     {
       "id": "en04",
@@ -244,34 +244,6 @@
       "url": "https://www.bisnow.com/events/london/student-housing/uk-living-series-student-housing-summit-9894"
     },
     {
-      "id": "p05",
-      "cat": "PBSA",
-      "name": "GSL Investor Summit — London",
-      "org": "Global Student Living",
-      "date": "2026-10-14",
-      "end": null,
-      "loc": "No.11 Cavendish Square, London",
-      "type": "Summit",
-      "priority": false,
-      "attending": false,
-      "desc": "By-invitation-only event for top PBSA investors, developers and operators. Exclusive market insights and high-value networking. Takes place alongside GSL Live 2026 in London.",
-      "url": "https://gslglobal.com/live/summit/"
-    },
-    {
-      "id": "p06",
-      "cat": "PBSA",
-      "name": "GSL Live 2026",
-      "org": "Global Student Living",
-      "date": "2026-10-14",
-      "end": null,
-      "loc": "No.11 Cavendish Square, London",
-      "type": "Conference",
-      "priority": false,
-      "attending": false,
-      "desc": "Annual sector gathering for everyone in PBSA — universities, operators, service providers. Insight stream covering trends, research and resident data, plus a collaboration stream. GSL Awards ceremony follows.",
-      "url": "https://gslglobal.com/live/"
-    },
-    {
       "id": "en02",
       "cat": "Energy",
       "name": "Smart Buildings Show 2026",
@@ -284,6 +256,48 @@
       "attending": false,
       "desc": "The UK's only dedicated commercial smart buildings conference and exhibition. 3,500 visitors, 100 exhibitors. Four theatres: Energy Management, Controls & Networks, IT & Digital Infrastructure, and Management & PropTech. Free to attend.",
       "url": "https://smartbuildingsshow.com/"
+    },
+    {
+      "id": "p05",
+      "cat": "PBSA",
+      "name": "GSL Investor Summit London 2026",
+      "org": "Global Student Living",
+      "date": "2026-10-14",
+      "end": null,
+      "loc": "No.11 Cavendish Square, London",
+      "type": "Summit",
+      "priority": false,
+      "attending": false,
+      "desc": "Invitation-only summit for senior PBSA and residential living investors, developers, lenders and operators, run under Chatham House rules. Nick Porter of The Dot Group gives the opening keynote. Held the same day as the GSL Community Forum, with the GSL Awards in the evening.",
+      "url": "https://gslglobal.com/events/gsl-investor-summit-london-2026/"
+    },
+    {
+      "id": "p06",
+      "cat": "PBSA",
+      "name": "GSL Community Forum 2026",
+      "org": "Global Student Living",
+      "date": "2026-10-14",
+      "end": null,
+      "loc": "No.11 Cavendish Square, London",
+      "type": "Forum",
+      "priority": false,
+      "attending": false,
+      "desc": "GSL's annual invitation-only day for universities, accommodation providers and partners (replaces GSL Live for 2026). Sessions cover GSL research on belonging and community, a shared-practice workshop that includes sustainability initiatives, and personality-based student segmentation. Invitations can be requested through GSL.",
+      "url": "https://gslglobal.com/events/gsl-community-forum-2026/"
+    },
+    {
+      "id": "p15",
+      "cat": "PBSA",
+      "name": "GSL Awards 2026",
+      "org": "Global Student Living",
+      "date": "2026-10-14",
+      "end": null,
+      "loc": "Horizon 22, London",
+      "type": "Awards",
+      "priority": false,
+      "attending": false,
+      "desc": "Evening awards dinner following the GSL Investor Summit and Community Forum. Winners are decided entirely on resident feedback gathered through the GSL Index rather than judges, so the room is full of operators who track student satisfaction closely. Separate awards ticket required.",
+      "url": "https://gslglobal.com/awards/"
     },
     {
       "id": "pt03",
@@ -314,6 +328,20 @@
       "url": "https://www.ft.com/"
     },
     {
+      "id": "en17",
+      "cat": "Energy",
+      "name": "CIBSE Climate Adaptation and Resilience Conference 2026",
+      "org": "CIBSE",
+      "date": "2026-10-21",
+      "end": null,
+      "loc": "The Building Centre, 26 Store Street, London WC1E",
+      "type": "Conference",
+      "priority": false,
+      "attending": false,
+      "desc": "One-day CIBSE conference on adapting buildings to a changing climate, including overheating and resilience of building services. Relevant to PBSA operators facing summer overheating and rising cooling demand in older stock.",
+      "url": "https://www.cibse.org/events/cibse-conferences/cibse-climate-adaptation-and-resilience-conference-2026/"
+    },
+    {
       "id": "p11",
       "cat": "PBSA",
       "name": "The Class Conference 2026",
@@ -330,7 +358,7 @@
     {
       "id": "p07",
       "cat": "PBSA",
-      "name": "Property Week ESG Edge 2026",
+      "name": "Sustainable Real Estate Forum & Awards 2026 (formerly ESG EDGE)",
       "org": "Property Week",
       "date": "2026-11-13",
       "end": null,
@@ -338,8 +366,8 @@
       "type": "Conference & Awards",
       "priority": false,
       "attending": false,
-      "desc": "Sustainability, social value and governance strategies across the property industry. Strong crossover with energy and EPC positioning — PBSA operators with ESG mandates are core attendees.",
-      "url": "https://www.propertyweek.com/event-calendar"
+      "desc": "Property Week's renamed ESG event: a morning forum on how sustainability feeds into real estate strategy and long-term performance, followed by the Sustainable Real Estate Awards. Around 500 attended in 2025. Useful for meeting ESG and sustainability leads at PBSA owners and investors.",
+      "url": "https://esg.propertyweek.com/live/en/page/home"
     },
     {
       "id": "en15",
@@ -384,17 +412,31 @@
       "url": "https://elementallondon.show/"
     },
     {
+      "id": "en18",
+      "cat": "Energy",
+      "name": "emex 2026 — Energy Management & Smart Buildings Expo",
+      "org": "Mark Allen Group",
+      "date": "2026-11-25",
+      "end": "2026-11-26",
+      "loc": "ExCeL London",
+      "type": "Exhibition",
+      "priority": true,
+      "attending": false,
+      "desc": "The UK's dedicated energy management expo: 4,500+ visitors, 100+ exhibitors and 100+ speakers, free to attend. Audience is mostly energy and sustainability managers, three quarters with purchasing authority. Same dates and venue as elementalLONDON, so both can be covered in one trip.",
+      "url": "https://www.emexlondon.com/"
+    },
+    {
       "id": "p08",
       "cat": "PBSA",
       "name": "Property Week Student Accommodation Conference & Awards 2026",
       "org": "Property Week",
       "date": "2026-12-01",
       "end": null,
-      "loc": "Park Plaza Westminster Bridge, London",
+      "loc": "Westminster Park Plaza, London",
       "type": "Conference & Awards",
       "priority": true,
       "attending": false,
-      "desc": "The UK's leading student accommodation event, now in its 19th year: around 1,300 attendees, 50+ speakers and 45 partners across a one-day conference and evening awards. Sustainability and operational cost sit on the main agenda, making it the single best PBSA room for Totem all year.",
+      "desc": "The UK's leading student accommodation event, now in its 19th year: around 1,300 attendees, 50+ speakers and 45 partners across a one-day conference and evening awards. Fringe events (site visits, Property Padel and a Parliamentary Reception) run the day before, on 30 November. Sustainability and operational cost sit on the main agenda, making it the best PBSA room for Totem all year.",
       "url": "https://student.propertyweek.com/"
     },
     {
@@ -410,6 +452,20 @@
       "attending": false,
       "desc": "The global real estate market's set-piece week, with 25,000+ participants and around 6,000 investors. Expensive and broad rather than targeted, but every major PBSA investor and pan-European operator is there, and the Living and ESG programmes have grown steadily.",
       "url": "https://www.mipim.com/en-gb.html"
+    },
+    {
+      "id": "en19",
+      "cat": "Energy",
+      "name": "CIBSE Technical Symposium 2027",
+      "org": "CIBSE",
+      "date": "2027-04-08",
+      "end": "2027-04-09",
+      "loc": "Brunel University, London",
+      "type": "Conference",
+      "priority": false,
+      "attending": false,
+      "desc": "CIBSE's annual peer-reviewed research symposium. The 2027 theme is 'Fit for 2050: Delivering Net Zero, Intelligent, and Resilient Built Environments'. Registration opens January 2027. Worth watching for papers on smart controls and occupant energy behaviour.",
+      "url": "https://www.cibse.org/events/cibse-technical-symposium/"
     },
     {
       "id": "en11",
@@ -494,6 +550,20 @@
       "attending": false,
       "desc": "The UK's Real Estate Investment & Infrastructure Forum, back in Leeds for three days across the Royal Armouries and Leeds Dock. The organisers expect more than 17,000 delegates including over 4,000 investors and developers, with local authorities, universities and institutional capital all present. Broad rather than PBSA-specific, but the regional development pipeline conversations happen here.",
       "url": "https://2027.ukreiif.com/"
+    },
+    {
+      "id": "pt06",
+      "cat": "PropTech",
+      "name": "PropTech Connect Europe 2027",
+      "org": "PropTech Connect",
+      "date": "2027-09-08",
+      "end": "2027-09-09",
+      "loc": "InterContinental London — The O2",
+      "type": "Conference",
+      "priority": true,
+      "attending": false,
+      "desc": "Europe's largest PropTech event returns to The O2. The 2026 edition drew 6,000+ attendees and a dedicated Smart Building Showcase. Pre-registration for 2027 is open.",
+      "url": "https://proptechconnect.com/"
     }
   ]
 }
