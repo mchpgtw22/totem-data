@@ -320,12 +320,12 @@
       "org": "Financial Times",
       "date": "2026-10-19",
       "end": "2026-10-20",
-      "loc": "London",
+      "loc": "The Landmark London (in person and digital)",
       "type": "Summit",
       "priority": false,
       "attending": false,
-      "desc": "Global leaders from energy, finance, industry and government on the energy transition. Electrification, digitalisation, energy security and affordability.",
-      "url": "https://www.ft.com/"
+      "desc": "The FT's annual energy transition summit, themed 'Powering a world under pressure' for 2026. Leaders from energy, finance, industry and government discuss electrification, digitalisation, energy security and affordability. Runs in person and online.",
+      "url": "https://energytransitions.live.ft.com/"
     },
     {
       "id": "en17",
