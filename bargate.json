@@ -3,9 +3,9 @@
   "location": "Southampton",
   "rooms": 122,
   "reduction_percent": 75.4,
-  "total_energy_saved_kwh": 163667,
-  "total_carbon_saved_kg": 31588,
-  "car_miles_equivalent": 120624,
-  "trees_equivalent": 1504,
-  "last_updated": "2026-10-11"
+  "total_energy_saved_kwh": 163576,
+  "total_carbon_saved_kg": 31570,
+  "car_miles_equivalent": 120557,
+  "trees_equivalent": 1503,
+  "last_updated": "2026-10-12"
 }
